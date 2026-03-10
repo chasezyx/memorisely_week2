@@ -14,9 +14,9 @@
 import Button from '../Button/Button';
 import './PricingCard.css';
 
-function PricingCard({ title, priceAmount, pricePeriod, includesText, features, buttonText, buttonVariant }) {
+function PricingCard({ title, priceAmount, pricePeriod, includesText, features, buttonText, buttonVariant, cardVariant }) {
     return (
-        <div className="card">
+        <div className={`card ${cardVariant === 'unlimited' ? 'card-unlimited' : ''}`}>
             <div className="card-top">
                 <h3 className="card-title">{title}</h3>
                 <p className="card-price">

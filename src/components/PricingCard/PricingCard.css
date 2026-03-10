@@ -12,6 +12,24 @@
     flex-shrink: 0;
 }
 
+.card.card-unlimited {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: #f9fafb;
+}
+
+.card.card-unlimited .card-title,
+.card.card-unlimited .card-price,
+.card.card-unlimited .card-price-amount,
+.card.card-unlimited .card-price-period,
+.card.card-unlimited .includes-text,
+.card.card-unlimited .features-list li {
+    color: #f9fafb;
+}
+
+.card.card-unlimited .checkmark {
+    color: #a5b4fc;
+}
+
 .card-top {
     display: flex;
     flex-direction: column;
