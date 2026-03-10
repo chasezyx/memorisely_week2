@@ -130,6 +130,35 @@ body {
     background-color: #333;
 }
 
+/* Unlimited variant — more colorful, special state */
+.card.unlimited {
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: #f9fafb;
+}
+
+.card.unlimited .card-title,
+.card.unlimited .card-price,
+.card.unlimited .card-price-amount,
+.card.unlimited .card-price-period,
+.card.unlimited .includes-text,
+.card.unlimited .features-list li {
+    color: #f9fafb;
+}
+
+.card.unlimited .checkmark {
+    color: #a5b4fc;
+}
+
+.download-button.unlimited {
+    background: linear-gradient(135deg, #6366f1, #ec4899);
+    color: #ffffff;
+}
+
+.download-button.unlimited:hover,
+.download-button.unlimited:active {
+    background: linear-gradient(135deg, #4f46e5, #db2777);
+}
+
 .page-label {
     position: fixed;
     top: 16px;
